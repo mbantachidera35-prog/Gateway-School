@@ -2,6 +2,7 @@
     margin:0;
     padding:0;
     font-family: 'Noto snas' sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -10,6 +11,7 @@ header{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .logo img{
@@ -19,13 +21,12 @@ header{
 
 nav ul{
     list-style: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 nav ul li{
-    display: inline-block;
-    margin-right: 15px;
+    margin: 0 10px;
 }
 
 nav ul li a{
@@ -43,8 +44,9 @@ nav ul li a:hover{
     background-image: url("Background\ 4.png");
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 70vh;
     display: flex;
+    align-items: center;
     text-align: left;
     color: #fff;
 }
@@ -52,7 +54,6 @@ nav ul li a:hover{
 .hero-content{
 max-width: 600px;
 padding: 20px;
-margin-top: 150px;
 margin-left: 4%;
 }
 
@@ -64,7 +65,6 @@ margin-left: 4%;
 
 .hero-content p{
     font-size: 24px;
-    margin-bottom: 30px;
 }
 
 .btn{
@@ -86,6 +86,8 @@ margin-left: 4%;
     display: flex;
     align-items: center;
     padding: 80px 0;
+    flex-wrap: wrap;
+    text-align: left;
 }
 
 .about-content{
@@ -112,7 +114,7 @@ margin-left: 4%;
 
 .about-image img{
     max-width: 100%;
-    height: auto;
+    max-width: 500px;
     border-radius: 5px;
 }
 
@@ -122,7 +124,7 @@ margin-left: 4%;
 }
 
  .menu{
-        padding: 80px 0;
+        padding: 60px 20px;
         text-align: center;
         background-color: #070e16;
     }
@@ -135,12 +137,13 @@ margin-left: 4%;
 
     .menu-items{
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
     }
 
     .menu-item{
-        max-width: 300px;
-        margin: 0 20px;
+        max-width: 280px;
+        margin: 10px;
         text-align: left;
     }
 
@@ -165,7 +168,7 @@ margin-left: 4%;
 
     .reservations{
         background-color: #1f1f1f;
-        padding: 80px 0;
+        padding: 60px 20px;
         text-align: center;
     }
 
@@ -247,7 +250,7 @@ margin-left: 4%;
     }
 
     .gallery{
-        padding: 80px 0;
+        padding: 60px 20px;
         text-align: center;
         background-color: #070e16;
     }
@@ -261,7 +264,7 @@ margin-left: 4%;
     .image-grid{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-gap:20px;
+        grid-gap:15px;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -274,7 +277,7 @@ margin-left: 4%;
 
     .contact{
         background-color: #333;
-        padding: 80px 0;
+        padding: 60px 20px;
         text-align: center;
         color: #fff;
     }
@@ -293,6 +296,7 @@ margin-left: 4%;
         display: flex;
         justify-content: center;
         margin-bottom: 40px;
+        flex-wrap: wrap;
     }
 
     .info-item{
@@ -336,7 +340,7 @@ margin-left: 4%;
 
     .footer{
         background-color: #070e16;
-        padding: 40px 0;
+        padding: 30px 10px;
         color: #fff;
         text-align: center;
     }
@@ -371,4 +375,5 @@ margin-left: 4%;
 
 
    
+
 
